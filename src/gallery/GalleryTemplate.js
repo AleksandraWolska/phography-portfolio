@@ -18,7 +18,9 @@ const GalleryTemplate = (props) => {
 
     function getMeta(url) {
       const img = new Image();
-      img.addEventListener("load", () => {});
+      img.addEventListener("load", () => {
+        console.log("halo")
+      });
       img.src = url;
       return { src: url, width: img.width, height: img.height };
     }

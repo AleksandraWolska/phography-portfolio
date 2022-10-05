@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AleksandraWolska/phography-portfolio/static/css/main.fcb2cbeb.css",
-    "main.js": "/AleksandraWolska/phography-portfolio/static/js/main.3355e775.js",
-    "static/js/787.7dd2e4bd.chunk.js": "/AleksandraWolska/phography-portfolio/static/js/787.7dd2e4bd.chunk.js",
-    "index.html": "/AleksandraWolska/phography-portfolio/index.html",
-    "main.fcb2cbeb.css.map": "/AleksandraWolska/phography-portfolio/static/css/main.fcb2cbeb.css.map",
-    "main.3355e775.js.map": "/AleksandraWolska/phography-portfolio/static/js/main.3355e775.js.map",
-    "787.7dd2e4bd.chunk.js.map": "/AleksandraWolska/phography-portfolio/static/js/787.7dd2e4bd.chunk.js.map"
+    "main.css": "/phography-portfolio/static/css/main.fcb2cbeb.css",
+    "main.js": "/phography-portfolio/static/js/main.dceb89b1.js",
+    "static/js/787.7dd2e4bd.chunk.js": "/phography-portfolio/static/js/787.7dd2e4bd.chunk.js",
+    "index.html": "/phography-portfolio/index.html",
+    "main.fcb2cbeb.css.map": "/phography-portfolio/static/css/main.fcb2cbeb.css.map",
+    "main.dceb89b1.js.map": "/phography-portfolio/static/js/main.dceb89b1.js.map",
+    "787.7dd2e4bd.chunk.js.map": "/phography-portfolio/static/js/787.7dd2e4bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcb2cbeb.css",
-    "static/js/main.3355e775.js"
+    "static/js/main.dceb89b1.js"
   ]
 }

@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-const GalleryTemplate = (props) => {
+const GalleryView = (props) => {
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
   
@@ -38,6 +38,7 @@ const GalleryTemplate = (props) => {
       {viewerIsOpen ? (
         <Modal onClose={closeLightbox}>
           <Carousel
+           
             currentIndex={currentImage}
             views={photoArray.map(x => ({
               ...x,
@@ -52,4 +53,4 @@ const GalleryTemplate = (props) => {
   )
 }
 
-export default GalleryTemplate
+export default GalleryView

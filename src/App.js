@@ -1,11 +1,31 @@
 
 import './App.css';
-import React from 'react'
-import Home from './Home';
+import React, { useState } from 'react'
+import GalleryView from './gallery/GalleryView';
+import HomeView from './home/HomeView';
+import Header from './main/Header'
+import Footer from './main/Footer'
 
-function App() {
+const  App = () => {
+
+
+  const categories = [
+    {
+      title: "Night Photography",
+      photos: [],
+      categoryRoute: 'link to category'
+
+    }
+  ]
+
+
   return (
-      <Home/>
+    <>
+    <Header />
+    <HomeView categories={categories}/>
+    <Footer />
+    
+    </>
   );
 }
 

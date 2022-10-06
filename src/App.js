@@ -8,12 +8,12 @@ import Footer from './main/Footer'
 
 const  App = () => {
 
-
   const categories = [
     {
       title: "Night Photography",
-      photos: [],
-      categoryRoute: 'link to category'
+      previewPhotos: [],
+      categoryRoute: 'link to category',
+      photoArray: []
 
     }
   ]
@@ -21,6 +21,17 @@ const  App = () => {
 
   return (
     <>
+
+    
+
+
+
+
+
+
+
+
+
     <Header />
     <HomeView categories={categories}/>
     <Footer />

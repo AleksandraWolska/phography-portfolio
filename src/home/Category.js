@@ -1,15 +1,20 @@
-import React from 'react'
+import React from "react";
+import { Link, Route, Routes } from "react-router-dom";
+import GalleryView from "../gallery/GalleryView";
 
-
-//props : title, photos, categoryPage
+//props : title, previewPhotos, categoryPage, photoArray
 const Category = (props) => {
-
   return (
-    <div>Category
-
-      <div>Go to category</div>
+    <div>
+      <p>Category: {props.title}</p>
+      <Link to={props.categoryPage} />
+      <Routes>
+        <Route exactPath={props.categoryPage} component={<GalleryView title={props.title} photoArray={props.photoArray} />}>
+          
+        </Route>
+      </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default Category
+export default Category;
